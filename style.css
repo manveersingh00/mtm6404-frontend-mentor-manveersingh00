@@ -1,0 +1,192 @@
+body {
+    background: hsl(0, 0%, 98%);
+    font-family: 'Epilogue', sans-serif;
+}
+
+.bg-body-tertiary{
+    background-color: hsl(0, 0%, 98%) !important;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+nav{
+    padding: 20px !important;
+}
+
+.nav-item a{
+    color:hsl(0, 0%, 41%);
+}
+
+.nav-item a:hover{
+    color:hsl(0, 0%, 8%);
+}
+
+.register{
+    color: hsl(0, 0%, 41%);
+    border-radius: 12px;
+    padding: 0px 15px;
+    border: 2px solid hsl(0, 0%, 41%);
+}
+
+.register:hover{
+    border-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+}
+
+.login{
+    color:hsl(0, 0%, 41%);
+    margin-right: 20px;
+}
+
+.login:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.title{
+    color:hsl(0, 0%, 8%);
+    line-height: 1em;
+    font-size: 65px;
+}
+
+.desc{
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+}
+
+.learn{
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+}
+
+.learn:hover{
+    background-color:transparent;
+    color: hsl(0, 0%, 8%);
+    font-weight: 600;
+}
+
+.menu-icon{
+    padding-right: 10px;
+    margin-top: -4px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    box-shadow: none !important; 
+}
+
+.main_cont{
+    padding:50px;
+}
+
+.left_cont{
+    padding-right: 50px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none !important;
+    box-shadow: none !important; 
+}
+
+.offcanvas.offcanvas-end{
+    width: 300px;
+}
+
+.navbar-nav{
+    padding-left: 50px;
+}
+
+.client_cont{
+    padding-right: 100px;
+}
+
+@media (max-width: 991.98px) {
+    .main_cont{
+        padding:10px 0px !important;
+    }
+
+    .main_image{
+        content: url('images/image-hero-mobile.png');
+    }
+
+    .title{
+        margin-top: 50px;
+        font-size: 35px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .desc{
+        text-align: center;
+         padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .learn{
+        display: flex;
+        justify-self: center;
+    }
+
+    .c_icon{
+        width: 100%;
+    }
+
+    .left_cont{
+        padding-right: 0px;
+    }
+
+    .navbar-nav{
+        padding-left: 20px;
+    }
+
+    .form_cont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .login{
+        margin-right: 0px;
+    }
+
+    .register{
+        width: 100px;
+        display: flex;
+        justify-self: center;
+    }
+
+    .client_cont{
+        padding-left: 10px;
+        width: 100%;
+        overflow: hidden;
+        padding-right: 10px;
+    }
+
+    .break{
+        display: none;
+    }
+
+    .c_area{
+        padding:0px;
+        margin:0px;
+    }
+
+    .c_area img{
+        width: 100%;
+        padding:10px
+    }
+}
