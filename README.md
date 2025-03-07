@@ -1,8 +1,14 @@
 **Name:** Manveer Singh
+
 **Student Number:** 041129347 
+
 **Challege attempt:** Intro section with dropdown navigation
 
+**Desktop View:**
 ![My Image](images/screenshot1.png)
+
+**Mobile View:**
+![My Image](images/screenshot2.png)
 
 **Challenges face during implementation:**
 
